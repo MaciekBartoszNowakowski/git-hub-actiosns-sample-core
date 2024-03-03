@@ -7,11 +7,11 @@ To repozytorium ma na celu pomóc zrozumieć podstawową konfigurację repozytor
 Pierwszym krokiem do zrealizowania jest wykonanie forka tego repozytorium do swojego profilu
 
 ![img.png](readme_images/fork_ss.png)
-(trzeci przysik od lewej na ss)
+(trzeci przycisk od lewej na ss)
 
 Gdy repozytorium jest już sklonowane do naszego profilu możemy zacząć konfiguracje CI.
 
-W repozytorium znajduje się kod który zawiera dwie częśći backednową oraz frontendową które dostarczają podsrawowe testy uruchamiane w różny sposób, co pozwoli nam zapoznać się z działaniem github actions.
+W repozytorium znajduje się kod który zawiera dwie częśći backednową oraz frontendową które dostarczają podstawowe testy uruchamiane w różny sposób, co pozwoli nam zapoznać się z działaniem github actions.
 
 
 Zanim zaczniemy musimy odpowiedzieć na pytanie czym są github actions, możemy je rozumieć jako małe programy których uruchomienie jest trigerowane przez konkretne wydarzenia (eventy) na naszym repozytorium i pozwalają nam na automatyzacje procesów związanych z rozwojem naszego projektu.
@@ -26,10 +26,11 @@ Czym więc są eventy w naszym repozytorium, mówiąc ogólnie są to wszystkie 
 - merge do jakiegoś konkretnego brancha itd..
 
 **Eventy trigerują workflows** które wykonują konkretny kawałek roboty związany z automatyzacją.
-Jeden workflow może składać się z **jednego lub więcej jobów** podzielownych na **wykonywane sekwencyjnie stepy**.
+Jeden workflow może składać się z **jednego lub więcej jobów** podzielonych na **wykonywane sekwencyjnie stepy**.
 
 1. Przygotowanie pierwszego workflow
     
+
     Workflow który teraz przygotujemy bęzie odpowaidał za uruchomienie testów
     i będzie się składał z dwóch jobów jednego odpowiedzialnego z frontend drugiego za backend.
     
@@ -44,7 +45,7 @@ Jeden workflow może składać się z **jednego lub więcej jobów** podzielowny
 
 
 ![img.png](readme_images/img.png)
-    Wykonania work flow możemy filtrować po eventach je trigerujących,statusach,branchach itd...
+    Wykonania workflow możemy filtrować po eventach je trigerujących,statusach,branchach itd...
 
 Po kliknięciu w wykonanie konkretnego workflow możemy zobaczyć jego status i szczegóły wykonania:
 ![img_1.png](readme_images/img_1.png)
