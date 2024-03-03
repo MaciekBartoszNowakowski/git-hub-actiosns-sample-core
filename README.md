@@ -30,7 +30,7 @@ Jeden workflow może składać się z **jednego lub więcej jobów** podzielonyc
 
 1. Przygotowanie pierwszego workflow
     
-    Workflow któy teraz przygotujemy będzie odpowiadał za uruchomienie testów
+    Workflow który teraz przygotujemy będzie odpowiadał za uruchomienie testów
     i będzie się składał z dwóch jobów jednego odpowiedzialnego z frontend drugiego za backend.
     
     Wszystkie workflow opisujemy za pomocą plików `*.yml` i umieszczamy w katalogu
@@ -38,7 +38,7 @@ Jeden workflow może składać się z **jednego lub więcej jobów** podzielonyc
 
     Plik który będzie odpowiadał za realizację workflow nazwiemy `tests.yml`
 
-    Jego treść z komentarzem wyjaśniającym poszczegulne kroki znajduje się w katalogu /resources.
+    Jego treść z komentarzem wyjaśniającym poszczególne kroki znajduje się w katalogu /resources.
    
     Po pushu naszych zmian w zakładce actions powinniśmy zauważyć uruchomienie naszego workflow:
 
