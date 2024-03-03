@@ -30,7 +30,7 @@ Jeden workflow może składać się z **jednego lub więcej jobów** podzielowny
 
 1. Przygotowanie pierwszego workflow
     
-    Workflow któy teraz przygotujemy bęzie odpowaidał za uruchomienie testów
+    Workflow który teraz przygotujemy bęzie odpowaidał za uruchomienie testów
     i będzie się składał z dwóch jobów jednego odpowiedzialnego z frontend drugiego za backend.
     
     Wszystkie workflow opisujemy za pomocą plików `*.yml` i umieszczamy w katalogu
