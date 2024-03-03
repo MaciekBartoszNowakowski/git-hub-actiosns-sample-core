@@ -11,12 +11,12 @@ Pierwszym krokiem do zrealizowania jest wykonanie forka tego repozytorium do swo
 
 Gdy repozytorium jest już sklonowane do naszego profilu możemy zacząć konfiguracje CI.
 
-W repozytorium znajduje się kod który zawiera dwie częśći backednową oraz frontendową które dostarczają podstawowe testy uruchamiane w różny sposób, co pozwoli nam zapoznać się z działaniem github actions.
+W repozytorium znajduje się kod który zawiera dwie części backednową oraz frontendową które dostarczają podstawowe testy uruchamiane w różny sposób, co pozwoli nam zapoznać się z działaniem github actions.
 
 
 Zanim zaczniemy musimy odpowiedzieć na pytanie czym są github actions, możemy je rozumieć jako małe programy których uruchomienie jest trigerowane przez konkretne wydarzenia (eventy) na naszym repozytorium i pozwalają nam na automatyzacje procesów związanych z rozwojem naszego projektu.
 
-Precyzyjniejszy opis tego wszystkiego co znajduje się ponieżej można znaleźć w dokumetacji samych github actions:
+Precyzyjniejszy opis tego wszystkiego co znajduje się ponieżej można znaleźć w dokumentacji samych github actions:
 https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
 
 Czym więc są eventy w naszym repozytorium, mówiąc ogólnie są to wszystkie acje wykonwane na kodzie i samym repo mogą to więc być:
